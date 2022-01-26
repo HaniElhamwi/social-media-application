@@ -1,0 +1,56 @@
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+/* margin: 50px; */
+/* background-color: #eeeff4; */
+background-color: #00000012 ;
+margin: 0px;
+}
+
+
+
+.socialMediaApp{
+
+background-color: #f9fafc;
+border-radius: 20px;
+display: flex;
+flex-direction: column;
+
+}
+
+
+
+.socialMediaPages{
+display: flex;
+flex-direction: row;
+background-color: #f9fafc;
+height: 530px;
+overflow-y: scroll;
+}
+
+
+.profileImage{
+
+height: 65px;
+display: flex;
+flex-direction: row-reverse;
+border-bottom: 1px solid rgba(0, 0, 0, 0.301);
+background-color: white;
+padding: 10px;
+justify-content: space-between;
+/* position: fixed; */
+/* width: 100%; */
+}
+
+
+
+.settingImage{
+
+
+width: 50px;
+height: 50px;
+border-radius: 10px;
+margin-top: 5px;
+
+
+}
+

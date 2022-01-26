@@ -1,0 +1,318 @@
+.menuItems{
+display: flex;
+flex-direction: row;
+background-color: white;
+padding: 5px;
+border-bottom: 1px solid #0000001a;
+}
+
+
+.homeIcon{
+display: flex;
+align-items: center;
+padding: 8px;
+color: #03110796
+}
+
+
+.menuFather{
+width: 25%;
+padding: 20px;  
+
+}
+
+
+.menuItemsFather{
+    box-shadow: 2px 0px 1px 1px #eeeeeed4;
+padding: 25px;
+background-color: white;
+border-radius: 10px;
+box-shadow: 0px 0px 0px 2px #f2e3e34d;
+}
+
+
+.browsingPageFather{
+
+width: 45%;
+display:flex;
+flex-direction: column;
+padding: 10px;
+}
+
+
+.forSendingPost{
+display: flex;
+flex-direction: row;
+background-color: white;
+border-radius: 10px;
+padding: 5px;
+/* box-shadow: 2px 0px 1px 1px #eeeeeed4; */
+box-shadow: 0px 0px 0px 2px #f2e3e34d;
+}
+
+
+
+.postImage{
+width: 40px;
+border-radius: 10px;    
+padding: 4px;
+}
+
+
+.postSearch{
+
+height: 40px;
+border: none;
+outline: none;
+/* width: 250px; */
+width: 100%;
+
+}
+
+.SearchForPost{
+
+display: flex;
+align-items: center;
+width: 100%;
+
+}
+
+.imagepost{
+display: flex;
+align-items: center;
+font-size: 20px;
+padding: 8px;
+cursor: pointer;
+
+
+}
+
+.sendPost{
+cursor: pointer;
+    display: flex;
+    align-items: center;
+/* font-size: 30px; */
+
+
+}
+
+.postImageName{
+
+display: flex;
+flex-direction: row;
+
+}
+
+.postImageP{
+width: 40px;
+border-radius: 10px;
+
+
+}
+
+.personalInformationP{
+    background-color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    width: 100%;
+}
+
+.image{
+
+display: flex;
+align-items: center;
+padding: 8px;
+}
+
+.personalInformationP{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+
+.optionIcon{
+    cursor: pointer;
+    color: #03110796;
+
+display: flex;
+align-items: center;
+font-size: 18px;
+
+}
+
+.postFather{
+    box-shadow: 0px 0px 0px 2px #f2e3e34d;
+    /* box-shadow: 2px 0px 1px 1px #eeeeeed4; */
+ display: flex;
+flex-direction: column;
+background-color: white;
+margin-top: 10px;
+border-radius: 10px;
+padding: 10px;
+}
+
+.namedate{
+
+    display: flex;
+    align-items: center;
+
+
+}
+
+.postText{
+    font-size: 15px;
+    color: #000000cc;
+    padding-left: 5px;
+}
+
+.MyFriends{
+
+width: 21%;
+padding: 10px;
+
+
+}
+
+
+.myFriendDialog{
+/* box-shadow: 2px 0px 1px 1px #eeeeeed4;    */
+background-color: white;
+display: flex;
+flex-direction: column;
+width: 100%;
+padding: 5px;
+border-radius: 10px;
+box-shadow: 0px 0px 0px 2px #f2e3e34d;
+}
+
+.myFriendimageS{
+
+width: 40px;
+border-radius: 10px;
+padding: 3px;
+
+
+}
+
+.myFriendsInformation{
+display: flex;
+
+
+
+
+}
+
+.friendName{
+
+/* font-size: 18px; */
+padding-left: 5px;
+
+}
+
+.userName{
+/* font-size: 18px; */
+font-weight: 10px;
+    
+}
+.Imagespost{
+
+cursor: pointer;
+    width: 100%;
+    height: 250px;
+}
+
+
+
+label.filebutton {
+    /* width:120px; */
+    height:40px;
+    overflow:hidden;
+    position:relative;
+    /* background-color:#ccc; */
+    font-size: 25px;
+    padding: 9px;
+    display: flex;
+align-items: center;
+color: #03110796;
+}
+
+label span input {
+    z-index: 999;
+    line-height: 0;
+    font-size: 50px;
+    position: absolute;
+    top: -2px;
+    left: -700px;
+    opacity: 0;
+    filter: alpha(opacity = 0);
+    -ms-filter: "alpha(opacity=0)";
+    cursor: pointer;
+    /* _cursor: hand; */
+    margin: 0;
+    padding:0;
+}
+
+.iconGetFile{
+
+display: flex;
+align-items: center;
+
+
+
+
+}
+
+.postTime{
+    color: rgba(0, 0, 0, 0.356);
+}
+
+.postItString{
+
+
+background-color: #1679ef;
+padding: 10px;
+color: white;
+border-radius: 12px;
+white-space: nowrap
+}
+
+.postTextImage{
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+}
+
+
+
+
+.deletingAPost {
+    
+margin-left: 300px;
+transition-duration: 0.4s;
+border: none ;
+background-color: brown;
+size: 18px;
+  }
+  
+  .deletingAPost:hover {
+    background-color: #d40e2f; /* Green */
+    color: rgb(3, 250, 57);
+  }
+
+/* 
+  .frame{
+
+height: 40px;
+width: 40px;
+
+  } */
+
+  .previewImage{
+width: 60px;
+height: 60px;
+
+
+
+  }
