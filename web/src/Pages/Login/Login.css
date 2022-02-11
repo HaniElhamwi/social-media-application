@@ -1,0 +1,80 @@
+body{
+
+    margin-top: 100px;
+    background-color: #05212a;
+
+
+}
+
+
+.loginPage{
+display: flex;
+
+/* justify-content: center; */
+flex-direction: column;
+background-color: white;
+width: 30%;
+margin-left: 400px;
+padding: 30px;
+border-radius: 20px;
+}
+
+
+.loginString{
+color: black;
+font-size: 60px;
+margin: 1px 0px 10px 0px;
+
+}
+
+.inputLogin{
+display: flex;
+flex-direction: column;
+
+}
+
+.secondInput{
+
+margin-top: 20px;
+height: 45px;
+border: 1px solid rgba(0, 0, 0, 0.212);
+border-radius: 5px;
+outline-color: #0aa8c2;
+
+}
+
+.firstInput{
+
+height: 45px;
+border: 1px solid rgba(0, 0, 0, 0.212);
+border-radius: 5px;
+outline-color: #0aa8c2;
+}
+
+.enterToLogIinString{
+
+    display: flex;
+    justify-content: center;
+    background-color: #0aa8c2;
+    padding: 10px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.signInString{
+font-size: 30px;
+display: flex;
+justify-content: center;
+color:hsl(0, 0%, 56.9%)  ;
+cursor: pointer ;
+
+}
+
+.enterToLogIin{
+
+display: flex;
+flex-direction: column;
+
+
+}

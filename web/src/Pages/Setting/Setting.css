@@ -1,0 +1,75 @@
+.settingProfile {
+  background-color: white;
+  position: fixed;
+  /* margin: 200px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+  width: 320px;
+  
+  left: 35%
+}
+.settingMenu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.email {
+  color: #666;
+  /* max-width: 50px; */
+}
+
+.passwordInput {
+  outline: none;
+  border: none;
+}
+
+.inputChangePassword {
+  font-size: 16px;
+  height: 30px;
+  width: 250px;
+  border: solid #d4d9e3 1px;
+  border-radius: 5px;
+  outline: #666;
+}
+.newPassWord {
+  margin-top: 5px;
+}
+
+.button {
+  height: 30px;
+  margin-top: 16px;
+  background-color: #4173da;
+  color: white;
+  cursor: pointer;
+}
+
+.ChangePasswordString {
+  cursor: pointer;
+  color:  #800080c9; 
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.button2 {
+  height: 30px;
+  margin-top: 16px;
+  background-color: #4173da;
+  color: white;
+  cursor: pointer;
+  margin-left: 2px;
+}
+
+.returnToMAinPage{
+cursor: pointer;
+color: #800080c9;
+
+
+}
